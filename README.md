@@ -34,6 +34,8 @@ El cuerpo del correo no varía, pero sí cambian sus asuntos y los enlaces malic
 
 Los dominios maliciosos utilizados por el actor de amenazas están alojados en PorkBun, al igual que los utilizados por [QRLog](https://github.com/birminghamcyberarms/QRLog/). Al momento de redactar este informe, todos estos dominios muestran un mensaje de "Mantenimiento", como se puede observar a continuación. Esto se debe probablemente a la publicación de los indicadores de compromiso en distintas plataformas de inteligencia (disponibles en la sección 'Referencias').
 
+![Mensaje de mantenimiento](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Mantenimiento.png)
+
 ### Análisis del lenguaje
 
 #### Cuerpo del mensaje
@@ -159,6 +161,8 @@ The attacker uses Google email servers to gain a reputational advantage and evad
 The body of the email does not vary, but its subjects and malicious action button links do change. The template used shows a high level of sophistication, with special attention to detail, including links and buttons redirecting to official Slack application sites and social networks. However, the language used in the email body and the email subjects reveals the deceptive nature of the communication, as analyzed in the 'Language Analysis' section.
 
 Malicious domains used by the threat actor are hosted on PorkBun, similar to those used by [QRLog](https://github.com/birminghamcyberarms/QRLog/). At the time of writing this report, all these domains display a "Maintenance" message, as seen below. This is likely due to the release of compromise indicators on various intelligence platforms (available in the 'References' section).
+
+![Maintenance message](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Mantenimiento.png)
 
 ### Language Analysis
 
