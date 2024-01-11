@@ -124,6 +124,71 @@ String:Essential Duty: Authorize Your Company's Recent Contract on Messaging!
 
 La infraestructura utilizada para esta campaña es reciclada, ya que ha formado parte de campañas anteriores. Si bien los dominios son nuevos, las direcciones IP a las que están vinculados tienen más de 100 menciones en la plataforma OTX de AlienVault [2](#referencias)[3](#referencias). Tras un analisis con la herramienta [bIOChip](https://github.com/mauroeldritch/bIOChip) (de mi autoría) encontré vínculos con los APT `EVILNUM` (principalmente) y `Lazarus` (en segundo lugar). Recordemos que los dominios utilizados en la campaña de QRLog de Lazarus también estaban alojados en Porkbun, detalle no menor.
 
+```
+#Output de bIOChip 
+
+⚠️  Report for concrecapital.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Lazarus (1)
+☣️  Domain is linked to malware activity:
+	* WifiCloudWidget (1)
+	* Targeted: Crypto.com (1)
+	* Targeted: Coinbase (1)
+
+⚠️  Report for superimarkets.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* VileLoader (1)
+	* DeathStalker (1)
+	* Stonefly (1)
+	* Maui (1)
+	* EVILNUM (1)
+
+⚠️  Report for 1jdm.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* AM (1)
+	* Agent Tesla (1)
+	* Malware (1)
+	* Tulach Malware (1)
+	* adware.pcappstore/veryfast (1)
+	* NSIS (1)
+	* Static AI - Malicious PE (1)
+	* HoneyPot (1)
+
+⚠️  Report for azureservicesapi.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* VileLoader (1)
+	* DeathStalker (1)
+	* Stonefly (1)
+	* Maui (1)
+	* EVILNUM (1)
+
+⚠️  Report for symantecq.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* VileLoader (1)
+	* DeathStalker (1)
+	* Stonefly (1)
+	* Maui (1)
+	* EVILNUM (1)
+
+⚠️  Report for slack-sso.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Evilnum (1)
+☣️  Domain is linked to malware activity:
+	* EVILNUM (1)
+
+⚠️  Report for slack-hub.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Evilnum (1)
+☣️  Domain is linked to malware activity:
+	* EVILNUM (1)
+
+⚠️  Report for slack-protect.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Evilnum (1)
+☣️  Domain is linked to malware activity:
+	* EVILNUM (1)
+```
+
 ### Sobre EVILNUM
 
 Evilnum, DeathStalker, TA4563 o Knockout Spider es un actor de amenazas avanzado centrado en víctimas del sector financiero y criptomonedas. Fue observado por primera vez en 2017 y continúa activo. Es conocido por emplear el Spear Phishing entre sus TTPs y por utilizar su propio conjunto de herramientas, que incluye PyVil RAT (un troyano escrito en Python) y EVILNUM. También se le ha observado utilizando herramientas de terceros como More_Eggs y herramientas de código abierto como LaZagne.
@@ -251,6 +316,71 @@ String:Essential Duty: Authorize Your Company's Recent Contract on Messaging!
 ## Possible Attribution
 
 The infrastructure used for this campaign is recycled, having been part of previous campaigns. While the domains are new, the linked IP addresses have more than 100 mentions on the AlienVault OTX platform [2](#references)[3](#references). After an analysis with the [bIOChip](https://github.com/mauroeldritch/bIOChip) tool, I found links to APT `EVILNUM` (mostly) and `Lazarus` (secondarily). Remember that the domains used in the QRLog campaign by Lazarus were also hosted on Porkbun, a noteworthy detail.
+
+```
+#bIOChip Output
+
+⚠️  Report for concrecapital.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Lazarus (1)
+☣️  Domain is linked to malware activity:
+	* WifiCloudWidget (1)
+	* Targeted: Crypto.com (1)
+	* Targeted: Coinbase (1)
+
+⚠️  Report for superimarkets.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* VileLoader (1)
+	* DeathStalker (1)
+	* Stonefly (1)
+	* Maui (1)
+	* EVILNUM (1)
+
+⚠️  Report for 1jdm.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* AM (1)
+	* Agent Tesla (1)
+	* Malware (1)
+	* Tulach Malware (1)
+	* adware.pcappstore/veryfast (1)
+	* NSIS (1)
+	* Static AI - Malicious PE (1)
+	* HoneyPot (1)
+
+⚠️  Report for azureservicesapi.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* VileLoader (1)
+	* DeathStalker (1)
+	* Stonefly (1)
+	* Maui (1)
+	* EVILNUM (1)
+
+⚠️  Report for symantecq.com: Malicious activity found.
+☣️  Domain is linked to malware activity:
+	* VileLoader (1)
+	* DeathStalker (1)
+	* Stonefly (1)
+	* Maui (1)
+	* EVILNUM (1)
+
+⚠️  Report for slack-sso.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Evilnum (1)
+☣️  Domain is linked to malware activity:
+	* EVILNUM (1)
+
+⚠️  Report for slack-hub.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Evilnum (1)
+☣️  Domain is linked to malware activity:
+	* EVILNUM (1)
+
+⚠️  Report for slack-protect.com: Malicious activity found.
+🥷🏻  Domain is linked to known adversaries:
+	* Evilnum (1)
+☣️  Domain is linked to malware activity:
+	* EVILNUM (1)
+```
 
 ### About EVILNUM
 
