@@ -122,7 +122,7 @@ String:Essential Duty: Authorize Your Company's Recent Contract on Messaging!
 <a name="atribucion"></a>
 ## Posible Atribución
 
-La infraestructura utilizada para esta campaña es reciclada, ya que ha formado parte de campañas anteriores. Si bien los dominios son nuevos, las direcciones IP a las que están vinculados tienen más de 100 menciones en la plataforma OTX de AlienVault [2](#referencias)[3](#referencias). Tras un analisis con la herramienta [bIOChip](https://github.com/mauroeldritch/bIOChip) (de mi autoría) encontré vínculos con los APT `EVILNUM` (principalmente) y `Lazarus` (en segundo lugar). Recordemos que los dominios utilizados en la campaña de QRLog de Lazarus también estaban alojados en Porkbun, detalle no menor.
+La infraestructura utilizada para esta campaña es reciclada, ya que ha formado parte de campañas anteriores. Si bien los dominios son nuevos, las direcciones IP a las que están vinculados tienen más de 100 menciones en la plataforma OTX de AlienVault [[2]](#referencias) [[3]](#referencias). Tras un analisis con la herramienta [bIOChip](https://github.com/mauroeldritch/bIOChip) (de mi autoría) encontré vínculos con los APT `EVILNUM` (principalmente) y `Lazarus` (en segundo lugar). Recordemos que los dominios utilizados en la campaña de QRLog de Lazarus también estaban alojados en Porkbun, detalle no menor.
 
 ```
 #Output de bIOChip 
@@ -315,7 +315,7 @@ String:Essential Duty: Authorize Your Company's Recent Contract on Messaging!
 <a name="attribution"></a>
 ## Possible Attribution
 
-The infrastructure used for this campaign is recycled, having been part of previous campaigns. While the domains are new, the linked IP addresses have more than 100 mentions on the AlienVault OTX platform [2](#references)[3](#references). After an analysis with the [bIOChip](https://github.com/mauroeldritch/bIOChip) tool, I found links to APT `EVILNUM` (mostly) and `Lazarus` (secondarily). Remember that the domains used in the QRLog campaign by Lazarus were also hosted on Porkbun, a noteworthy detail.
+The infrastructure used for this campaign is recycled, having been part of previous campaigns. While the domains are new, the linked IP addresses have more than 100 mentions on the AlienVault OTX platform [[2]](#references) [[3]](#references). After an analysis with the [bIOChip](https://github.com/mauroeldritch/bIOChip) tool, I found links to APT `EVILNUM` (mostly) and `Lazarus` (secondarily). Remember that the domains used in the QRLog campaign by Lazarus were also hosted on Porkbun, a noteworthy detail.
 
 ```
 #bIOChip Output
