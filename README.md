@@ -36,6 +36,14 @@ Los dominios maliciosos utilizados por el actor de amenazas están alojados en P
 
 ![Mensaje de mantenimiento](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Mantenimiento.png)
 
+Los dominios fueron creados el 3 de Enero de 2024, excepto por *slack-hub* que existe desde Mayo de 2021 según Kaspersky. Todos tienen reputación neutra o positiva en su plataforma.
+
+![Reputation](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Reputation1.png)
+
+![Reputation](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Reputation2.png)
+
+![Reputation](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Reputation3.png)
+
 ### Análisis del lenguaje
 
 #### Cuerpo del mensaje
@@ -228,6 +236,15 @@ The body of the email does not vary, but its subjects and malicious action butto
 Malicious domains used by the threat actor are hosted on PorkBun, similar to those used by [QRLog](https://github.com/birminghamcyberarms/QRLog/). At the time of writing this report, all these domains display a "Maintenance" message, as seen below. This is likely due to the release of compromise indicators on various intelligence platforms (available in the 'References' section).
 
 ![Maintenance message](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Mantenimiento.png)
+
+According to Kaspersky, domains were created on January 3rd except for *slack-hub* which exists since May, 2021. All of them have none or positive reputation on their platform.
+
+![Reputation](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Reputation1.png)
+
+![Reputation](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Reputation2.png)
+
+![Reputation](https://raw.githubusercontent.com/MauroEldritch/EVILSLACK/main/img/Reputation3.png)
+
 
 ### Language Analysis
 
